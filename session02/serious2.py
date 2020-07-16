@@ -1,17 +1,20 @@
+#2.a.i
 for i in range(20):
     if i%2 == 0:
         print('1', end=' ')
     else:
         print('0', end=' ')
 
+#2.a.ii
 print('\n')
 n = int(input("Enter the total number of 1's and 0's: "))
 for i in range(n):
     if i%2 == 0:
-        print('1', end=' ')
+        print('1', end='  ')
     else:
-        print('0', end=' ')
+        print('0', end='  ')
 
+#2.b.i
 print(end='\n')
 for i in range(9):
     print(end='\n')
@@ -22,6 +25,7 @@ for i in range(9):
         else:
             print(a, end=' ')
 
+#2.b.ii
 print('\n')
 n = int(input('Enter a number: ',))
 for i in range(n):
@@ -34,6 +38,7 @@ for i in range(n):
         else:
             print(a, end=' ')
 
+#2.c.i
 print(end='\n')
 for i in range(9):
     print(end='\n')
@@ -50,6 +55,7 @@ for i in range(9):
             else:
                 print('1', end='  ')
 
+# 2.c.ii
 print('\n')
 n = int(input('Enter a number: '))
 for i in range(n):
