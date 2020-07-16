@@ -1,0 +1,8 @@
+- How to check a variable’s type?
+Answer: To use the function: Type(). type("the variable's name" or "the value of variable")
+- In what cases, you will get ​SyntaxError​ from the compiler telling you
+that some of your variables have ​invalid names​?
+- Answer: if you give a variable an illegal name, you will get SyntaxError.
+- Ex: The variable's name begins with a number: 12circle
+    The variable's name contains a special character: radius@
+    The variable's name is one of Python's keywords: def

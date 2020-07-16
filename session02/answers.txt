@@ -1,0 +1,24 @@
+1. - What is Boolean?
+   Answer: A Boolean value is either true or false.
+   - Write down 3 different expression that results a Boolean type.
+   Answer: 1. (3 + 2) != 6
+           2. ('hel' + 'lo') == 'hello'
+           3. 4 >= 2
+
+2. - What is a flowchart?
+   Answer: A flowchart is defined as a diagrammatic representation of an algorithm, a step-by-step approach to solving a task.
+
+3. - What is nested conditionals?
+   Answer: One conditional can also be nested within another.
+   - Write a piece of code that uses nested conditionals.
+   Answer: Giải phương trình bậc nhất một ẩn:
+a = float(input('Nhập giá trị hệ số a = '))
+b = float(input('Nhập giá trị hệ số b = '))
+if a == 0:
+    if b == 0:
+        print('Phương trình có vô số nghiệm')
+    else:
+        print('Phương trình vô nghiệm')
+else:
+    x = -b/a
+    print('Phương trình có nghiệm là: x = ',x)
